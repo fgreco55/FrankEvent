@@ -10,7 +10,7 @@ import com.example.frankevent.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    var clickCounter = 0;
+    var clickCounter: Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)                      // need to call superclass
